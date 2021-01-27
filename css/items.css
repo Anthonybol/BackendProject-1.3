@@ -1,0 +1,181 @@
+.form_wrapper{
+       margin: 70px auto; 
+}
+
+body {
+    background: rgb(255, 248, 238);
+  } 
+
+/* table#main-table
+    width: 83.5%;
+    border-collapse: collapse;
+} */
+
+input#product-code{
+    border: none;
+    background: rgb(255, 248, 238);
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    padding: 5px;
+    color: #fff;
+    background: #ff523b;
+    font-weight: normal;
+}
+
+table{
+    width:40%;
+    /* border-collapse: collapse; */
+    padding-left: 5px;
+}
+
+td{
+    padding: 10px 5px;
+}
+
+td input#quantity{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+ td input#delete{
+    color: #ff523b;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+
+ }
+
+.product-description{
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+
+}
+
+/* .total-price{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    margin: 70px auto; 
+    font-weight: 500;
+} */
+
+table#total-price{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    /* margin: 70px auto;  */
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+}
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+th#product-th{
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+th#quantity-th{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+th#unit-th{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+input#price{
+    border: none;
+    background: rgb(255, 248, 238);
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    text-align: right;
+}
+
+td input#quantity{
+    background: rgb(255, 248, 238);
+    font-family: 'Didact Gothic', sans-serif;
+    margin-left: 30%;
+    margin-right: 50%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+input#update-qty{
+    color: #13b30488;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.form_buttons{
+    padding-bottom: 20px;
+}
+
+button#confirm{
+    background-color: #3BAF9F;
+    /* display: block; */
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 4px 30px;
+    outline: none;
+    color:wheat;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 16px;
+
+}
+
+button#confirm:hover{
+    background-color:black;
+}
+
+button#clear-cart{
+    background-color: #f05811;
+    /* display: block; */
+    margin: auto;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 4px 30px;
+    outline: none;
+    color:wheat;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 16px;
+}
+
+button#clear-cart:hover{
+    background-color:black;
+    ;
+}

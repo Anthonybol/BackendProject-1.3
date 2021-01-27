@@ -1,0 +1,103 @@
+body
+{
+    display: flex; 
+    flex-direction: column;
+    /* height: 260vh; */
+    background-position: center;
+    background-size: cover; 
+} 
+
+.regoform{
+    width: 800px;
+    margin:auto;
+    font-family: 'Montserrat', sans-serif;
+    color: #7a7575;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    width: 800px;
+    margin:auto;
+    box-shadow: 0px 1px 5px #999999; 
+    border-radius: 10px;
+}
+
+form{
+    padding: 10px;
+}
+
+#name{
+    width:100%;
+    /* height: 100px; */
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    color: black;
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.email{
+    position: relative;
+    left: 200px;
+    top: -35px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    width: 480px;
+
+}
+
+.userid{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+.password{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type=submit] {
+    background-color: #3BAF9F;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color:wheat;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+    transition: 0.25px;
+    font-size: 16px;
+
+}
+
+input[type=submit]:hover{
+    background-color:black;
+    ;
+}

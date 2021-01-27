@@ -1,0 +1,52 @@
+.username_intro {
+    text-align: left;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-left: 10px;
+    font-size: large;
+}
+
+.items-in-cart a {
+    font-family: 'Didact Gothic', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.productPics {
+    width: 230px;
+    height: 190px;
+    box-shadow: 0px 1px 5px #999999;
+    border-radius: 10px;
+} 
+
+#members_table {
+	top: 600px;
+    margin-left: 170px;  
+} 
+
+.productColumn {
+    padding-top: 50px;
+    padding-right: 150px; 
+    padding-left: -20px; 
+    padding-bottom: 30px; 
+ }
+
+ /* table heading styling */
+ .members_image_table a{
+    text-align: center; 
+    font-family: 'M PLUS 1p', sans-serif;
+    text-decoration: none;
+    color: black;
+} /*align text for text in image table*/
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    background: rgb(255, 248, 238);
+  }  /*Body margin 0, also set background here.*/
+
+.table_heading{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    text-align: center;
+    color: #7a7575;
+}
